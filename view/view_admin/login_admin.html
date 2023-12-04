@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>E-health</title>
+        <link rel="stylesheet" href="../view_user/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+    </head>
+    <body>
+        <header class="header">
+            <a href="" class="logo"><i class='bx bx-pulse'></i>E-health</a>
+        <nav class="list">
+            <a href="../../index.html">Home</a>
+            <a href="../view_user/login.html">Patient</a>
+            <a href="../view_doctor/login_doctor.html">Doctor</a>
+            <a href="login_admin.html">Admin</a>
+        </nav>
+        </header>
+        <div class="login">
+            <form action="../../controlleur/controlleur_admin.php?action=signin" method="post">
+                <h3>Welcome admin</h3>
+                <input type="email" name="admin" placeholder="enter email" class="box" required>
+                <input type="password" name="password" placeholder="enter password" class="box" required>
+                <input type="submit" name="submit" value="login" class="btn">
+            </form>
+        </div>
+    </body>
+</html>
