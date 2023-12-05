@@ -72,14 +72,14 @@ To set up this project you should install the following:
 To use the project you should do the following:
 - Add the project to **'htdocs'** folder on the xampp environment.
 - Create the database on phpmyadmin panel.
-  -> patients(**`id`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`date_of_birth`**)
-  -> maladies(**`id_maladie`**, **`name_of_maladie`**)
-  -> cathegories(**`id_cathegory`**, **`name_of_cathegory`**)
-  -> patient_maladie(**`id_patient`**, **`id_maladie`**)
-  -> forum(**`id`**, **`Description`**, **`Post`**, **`patient`**, **`id_categorie`**, **`statut`**, **`type`**)
-  -> answers(**`id_consultation`**, **`id_doctor`**, **`answer`**)
-  -> admins(**`id_admin`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**)
-  -> doctors(**`id_doctor`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`id_cathegory`**)
+  * patients(**`id`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`date_of_birth`**)
+  * maladies(**`id_maladie`**, **`name_of_maladie`**)
+  * cathegories(**`id_cathegory`**, **`name_of_cathegory`**)
+  * patient_maladie(**`id_patient`**, **`id_maladie`**)
+  * forum(**`id`**, **`Description`**, **`Post`**, **`patient`**, **`id_categorie`**, **`statut`**, **`type`**)
+  * answers(**`id_consultation`**, **`id_doctor`**, **`answer`**)
+  * admins(**`id_admin`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**)
+  * doctors(**`id_doctor`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`id_cathegory`**)
 
 ## Screenshots
 ### Home Page
