@@ -83,10 +83,10 @@ To use the project you should do the following:
 
 ## Screenshots
 ### Home Page
-![Example screenshot](Screenshots/Page d'acceuil.png)
+![Example screenshot](Screenshots/home.png)
 ### Admin dashboard 
 ![Example screenshot](Screenshots/Dashboard.png)
 ### Blog page
 ![Example screenshot](Screenshots/Blog.png)
 ### Consultations page
-![Example screenshot](Screenshots/My consultations.png)
+![Example screenshot](Screenshots/consultations.png)
